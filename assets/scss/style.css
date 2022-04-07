@@ -111,7 +111,7 @@ ul {
 }
 @media (min-width: 768px) {
   .container {
-    padding: 0;
+    padding: 0 12px;
   }
 }
 
@@ -169,6 +169,7 @@ ul {
 .site-header .header-inner {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-top: 50px;
 }
 

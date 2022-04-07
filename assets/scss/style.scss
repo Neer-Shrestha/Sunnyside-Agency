@@ -144,7 +144,7 @@ ul {
     padding: 0 2rem;
 
     @include md {
-        padding: 0;
+        padding: 0 12px;
     }
 }
 
@@ -215,6 +215,7 @@ ul {
     .header-inner {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         padding-top: 50px;
     }
 }
